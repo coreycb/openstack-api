@@ -1,0 +1,13 @@
+name: openstack-api
+summary: Fake OpenStack API service
+maintainer: Corey Bryant <corey.bryant@ubuntu.com>
+description: |
+  Fake OpenStack API service that uses the openstack-api-endpoint to talk
+  to OpenStack Load Balancer.
+tags:
+  - openstack
+series:
+  - xenial
+requires:
+  api-loadbalancer:
+    interface: openstack-api-endpoints

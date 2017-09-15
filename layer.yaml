@@ -1,0 +1,2 @@
+includes: ['layer:basic', 'interface:openstack-api-endpoints']
+repo: 'https://github.com/coreycb/openstack-api'
